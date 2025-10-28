@@ -99,6 +99,128 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+  - name: "🇹🇷 hamedp71 - ss"
+    type: ss
+    server: 62.133.63.21
+    port: 65262
+    cipher: chacha20-ietf-poly1305
+    password: "VGmbVSd6gEUvxvEx2aNA4q"
+
+  - name: "🇦🇲 Armenia - 1"
+    type: vless
+    server: 188.164.159.61
+    port: 2096
+    uuid: 12345678-1234-1234-1234-123456789123
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.hubp.de
+    client-fingerprint: chrome
+    allowInsecure: true
+    ws-opts:
+      path: "/snippets"
+      headers:
+        Host: vless.hubp.de
+
+  - name: "hamedp71-🇵🇱-45"
+    type: ss
+    server: 217.30.10.70
+    port: 9050
+    cipher: aes-256-cfb
+    password: "FG5ddLsMPbV5CutE"
+    udp: true
+  - name: "hamedp71-🇵🇱-47"
+    type: ss
+    server: 217.30.10.70
+    port: 9057
+    cipher: aes-256-cfb
+    password: "wjTugX3ZtHMB9c3Z"
+    udp: true
+  - name: "hamedp71-🇵🇱-49"
+    type: ss
+    server: 217.30.10.70
+    port: 9033
+    cipher: aes-256-cfb
+    password: "UTJA57ypk2XKQpnm"
+    udp: true
+  - name: "hamedp71-🇵🇱-51"
+    type: ss
+    server: 217.30.10.70
+    port: 9003
+    cipher: aes-256-cfb
+    password: "JdmRK9gMEqFgs8nP"
+    udp: true
+  - name: "hamedp71-🇵🇱-52"
+    type: ss
+    server: 217.30.10.18
+    port: 9042
+    cipher: aes-256-cfb
+    password: "S7KwUu7yBy58S3Ga"
+    udp: true
+  - name: "hamedp71-🇵🇱-53"
+    type: ss
+    server: 217.30.10.18
+    port: 9027
+    cipher: aes-256-cfb
+    password: "EXN3S3eQpjE7EJu8"
+    udp: true
+  - name: "hamedp71-🇵🇱-55"
+    type: ss
+    server: 217.30.10.18
+    port: 9084
+    cipher: aes-256-cfb
+    password: "c3NtHJ5ujV2tGDfj"
+    udp: true
+  - name: "hamedp71-🇵🇱-60"
+    type: ss
+    server: 217.30.10.18
+    port: 9018
+    cipher: aes-256-cfb
+    password: "fG2artUmHfNT2cX7"
+    udp: true
+  - name: "hamedp71-🇵🇱-61"
+    type: ss
+    server: 217.30.10.70
+    port: 9070
+    cipher: aes-256-cfb
+    password: "bf7v334KKDV3YDhH"
+    udp: true
+  - name: "hamedp71-🇵🇱-62"
+    type: ss
+    server: 217.30.10.70
+    port: 9014
+    cipher: aes-256-cfb
+    password: "KnJGad3FqTvjqbaX"
+    udp: true
+  - name: "hamedp71-🇵🇱-63"
+    type: ss
+    server: 217.30.10.70
+    port: 9093
+    cipher: aes-256-cfb
+    password: "wfLC2y7rzZyCmuyt"
+    udp: true
+  - name: "hamedp71-🇵🇱-66"
+    type: ss
+    server: 217.30.10.18
+    port: 9046
+    cipher: aes-256-cfb
+    password: "NvS8N4Vf8qAGPSCL"
+    udp: true
+  - name: "hamedp71-🇵🇱-67"
+    type: ss
+    server: 217.30.10.70
+    port: 9046
+    cipher: aes-256-cfb
+    password: "NvS8N4Vf8qAGPSCL"
+    udp: true
+  - name: "hamedp71-🇵🇱-68"
+    type: ss
+    server: 217.30.10.18
+    port: 9040
+    cipher: aes-256-cfb
+    password: "p9z5BVADH2YFs3MN"
+    udp: true
+    
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
     server: 206.71.158.37
@@ -159,16 +281,6 @@ proxies:
     obfs-password: "khameniiko@smad@ret"
     skip-cert-verify: true
 
-  - name: "🇩🇪 hamedp71 - 7"
-    type: hysteria2
-    server: dir.cybsecguru.com
-    port: 35000
-    password: "680210f5-3b5f-4947-9983-e508a15cf169"
-    sni: "jnir.pichondan.com"
-    obfs: salamander
-    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-    skip-cert-verify: true
-
   - name: "🇺🇸 hamedp71 - 8"
     type: hysteria2
     server: 108.165.213.197
@@ -185,16 +297,6 @@ proxies:
     sni: "YAPC-1.afshin.ir"
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
-    skip-cert-verify: true
-
-  - name: "🇳🇱 hamedp71 - 10"
-    type: hysteria2
-    server: 206.71.158.40
-    port: 35000
-    password: "680210f5-3b5f-4947-9983-e508a15cf169"
-    sni: "jnir.pichondan.com"
-    obfs: salamander
-    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
     skip-cert-verify: true
 
   - name: "hamedp71-🇳🇱-2"
@@ -2201,370 +2303,6 @@ proxies:
       max-early-data: 2048
       early-data-header-name: Sec-WebSocket-Protocol
 
-  - name: "🇸🇪 hamedp71-1-V"
-    type: vless
-    server: nkang2replace.airlineshoma.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-2-V"
-    type: vless
-    server: nkang2replace.airlineshoma.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-3-V"
-    type: vless
-    server: zula.ir
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-4-V"
-    type: vless
-    server: zula.ir
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-5-V"
-    type: vless
-    server: openai.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-6-V"
-    type: vless
-    server: openai.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-7-V"
-    type: vless
-    server: www.speedtest.net
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-8-V"
-    type: vless
-    server: www.speedtest.net
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-9-V"
-    type: vless
-    server: kifpool.me
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-10-V"
-    type: vless
-    server: kifpool.me
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-11-V"
-    type: vless
-    server: indeed.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-12-V"
-    type: vless
-    server: indeed.com
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-13-V"
-    type: vless
-    server: autotrader.co.uk
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇸🇪 hamedp71-14-V"
-    type: vless
-    server: autotrader.co.uk
-    port: 443
-    uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
-    packet-encoding: packetaddr
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: nkang2replace.airlineshoma.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: false
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/"
-      headers:
-        Host: nkang2replace.airlineshoma.com
-      max-early-data: 2560
-      early-data-header-name: Sec-WebSocket-Protocol
-
 #Arista
 #Rayan
 #BPB
@@ -2587,10 +2325,24 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
+      - "🇹🇷 hamedp71 - ss"
+      - "🇦🇲 Armenia - 1"
+      - "hamedp71-🇵🇱-45"
+      - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
+      - "hamedp71-🇵🇱-52"
+      - "hamedp71-🇵🇱-53"
+      - "hamedp71-🇵🇱-55"
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
 
   - name: "اختصاصی ❤️ خودکار"
     type: url-test
@@ -2604,53 +2356,26 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
-      - "🇳🇱 1 hamedp71 - Vless"
-      - "🇳🇱 2 hamedp71 - Vless"
-      - "🇳🇱 3 hamedp71 - Vless"
-      - "🇳🇱 4 hamedp71 - Vless"
-      - "🇳🇱 5 hamedp71 - Vless"
-      - "🇳🇱 6 hamedp71 - Vless"
-      - "🇳🇱 7 hamedp71 - Vless"
-      - "🇳🇱 8 hamedp71 - Vless"
-      - "🇳🇱 9 hamedp71 - Vless"
-      - "🇳🇱 10 hamedp71 - Vless"
-      - "🇳🇱 11 hamedp71 - Vless"
-      - "🇳🇱 12 hamedp71 - Vless"
-      - "🇳🇱 13 hamedp71 - Vless"
-      - "🇳🇱 14 hamedp71 - Vless"
-      - "🇳🇱 15 hamedp71 - Vless"
-      - "🇳🇱 16 hamedp71 - Vless"
-      - "🇳🇱 17 hamedp71 - Vless"
-      - "🇳🇱 18 hamedp71 - Vless"
-      - "🇳🇱 19 hamedp71 - Vless"
-      - "🇳🇱 20 hamedp71 - Vless"
-      - "🇳🇱 21 hamedp71 - Vless"
-      - "🇳🇱 22 hamedp71 - Vless"
-      - "🇳🇱 23 hamedp71 - Vless"
-      - "🇳🇱 24 hamedp71 - Vless"
-      - "🇳🇱 25 hamedp71 - Vless"
-      - "🇳🇱 26 hamedp71 - Vless"
-      - "🇳🇱 27 hamedp71 - Vless"
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
+      - "🇹🇷 hamedp71 - ss"
+      - "🇦🇲 Armenia - 1"
+      - "hamedp71-🇵🇱-45"
+      - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
+      - "hamedp71-🇵🇱-52"
+      - "hamedp71-🇵🇱-53"
+      - "hamedp71-🇵🇱-55"
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
 
   - name: "🤍 وارپ"
     type: url-test
@@ -2723,53 +2448,26 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 5"
       - "🇳🇱 hamedp71 - 6"
-      - "🇩🇪 hamedp71 - 7"
       - "🇺🇸 hamedp71 - 8"
       - "🇬🇧 hamedp71 - 9"
-      - "🇳🇱 hamedp71 - 10"
       - "hamedp71-🇳🇱-2"
       - "hamedp71-🇫🇷-2"
-      - "🇳🇱 1 hamedp71 - Vless"
-      - "🇳🇱 2 hamedp71 - Vless"
-      - "🇳🇱 3 hamedp71 - Vless"
-      - "🇳🇱 4 hamedp71 - Vless"
-      - "🇳🇱 5 hamedp71 - Vless"
-      - "🇳🇱 6 hamedp71 - Vless"
-      - "🇳🇱 7 hamedp71 - Vless"
-      - "🇳🇱 8 hamedp71 - Vless"
-      - "🇳🇱 9 hamedp71 - Vless"
-      - "🇳🇱 10 hamedp71 - Vless"
-      - "🇳🇱 11 hamedp71 - Vless"
-      - "🇳🇱 12 hamedp71 - Vless"
-      - "🇳🇱 13 hamedp71 - Vless"
-      - "🇳🇱 14 hamedp71 - Vless"
-      - "🇳🇱 15 hamedp71 - Vless"
-      - "🇳🇱 16 hamedp71 - Vless"
-      - "🇳🇱 17 hamedp71 - Vless"
-      - "🇳🇱 18 hamedp71 - Vless"
-      - "🇳🇱 19 hamedp71 - Vless"
-      - "🇳🇱 20 hamedp71 - Vless"
-      - "🇳🇱 21 hamedp71 - Vless"
-      - "🇳🇱 22 hamedp71 - Vless"
-      - "🇳🇱 23 hamedp71 - Vless"
-      - "🇳🇱 24 hamedp71 - Vless"
-      - "🇳🇱 25 hamedp71 - Vless"
-      - "🇳🇱 26 hamedp71 - Vless"
-      - "🇳🇱 27 hamedp71 - Vless"
-      - "🇸🇪 hamedp71-1-V"
-      - "🇸🇪 hamedp71-2-V"
-      - "🇸🇪 hamedp71-3-V"
-      - "🇸🇪 hamedp71-4-V"
-      - "🇸🇪 hamedp71-5-V"
-      - "🇸🇪 hamedp71-6-V"
-      - "🇸🇪 hamedp71-7-V"
-      - "🇸🇪 hamedp71-8-V"
-      - "🇸🇪 hamedp71-9-V"
-      - "🇸🇪 hamedp71-10-V"
-      - "🇸🇪 hamedp71-11-V"
-      - "🇸🇪 hamedp71-12-V"
-      - "🇸🇪 hamedp71-13-V"
-      - "🇸🇪 hamedp71-14-V"
+      - "🇹🇷 hamedp71 - ss"
+      - "🇦🇲 Armenia - 1"
+      - "hamedp71-🇵🇱-45"
+      - "hamedp71-🇵🇱-47"
+      - "hamedp71-🇵🇱-49"
+      - "hamedp71-🇵🇱-51"
+      - "hamedp71-🇵🇱-52"
+      - "hamedp71-🇵🇱-53"
+      - "hamedp71-🇵🇱-55"
+      - "hamedp71-🇵🇱-60"
+      - "hamedp71-🇵🇱-61"
+      - "hamedp71-🇵🇱-62"
+      - "hamedp71-🇵🇱-63"
+      - "hamedp71-🇵🇱-66"
+      - "hamedp71-🇵🇱-67"
+      - "hamedp71-🇵🇱-68"
       
 rule-providers:
   malware:
